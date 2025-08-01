@@ -4,21 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>YO7Hair - Contact</title>
-</head>
-<body>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+  <!-- Feuille de style externe -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WS585D5S');</script>
+</head>
+
+<body>
+  <!-- GTM noscript -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS585D5S"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- Navigation -->
   <nav>
     <a href="index.html">Accueil</a> |
     <a href="prestations.html">Prestations</a> |
-    <a href="histoire.html">Histoire</a> |
+    <a href="histoire.html">Notre histoire</a> |
     <a href="contact.html">Contact</a>
   </nav>
 
-  <header>
+  <!-- Contact -->
+  <header class="hero">
     <h1>Contactez-nous</h1>
+    <p>Une question, un rendez-vous ?</p>
   </header>
 
-  <section>
+  <section id="contact">
     <form>
       <label for="nom">Nom :</label><br>
       <input type="text" id="nom" name="nom" required><br><br>
@@ -29,13 +49,13 @@
       <label for="message">Message :</label><br>
       <textarea id="message" name="message" rows="5" required></textarea><br><br>
 
-      <button type="submit" id="contact_submit">Envoyer</button>
+      <button type="submit" class="btn-primary" id="contact_submit">Envoyer</button>
     </form>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 YO7Hair</p>
   </footer>
-
 </body>
 </html>
