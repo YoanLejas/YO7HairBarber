@@ -13,7 +13,7 @@ body, html {
 /* Section Accueil */
 .hero {
   background: url('background.jpg') center center/cover no-repeat;
-  height: 100vh;
+  height: 50vh;
   position: relative;
   color: #fff;
 }
