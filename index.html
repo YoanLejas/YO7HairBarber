@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>YO7'Hair Barber - Accueil</title>
 
   <!-- Google Fonts -->
@@ -34,14 +34,44 @@
   
   <!-- Hero section -->
   <header class="hero">
-    <h1>YO7'Hair Barber</h1>
-    <button class="btn-primary" id="btn_services">Voir les services</button>
+    <div class="overlay">
+      <img src="logo.png" alt="Logo YO 7'HAIR BARBER" class="logo">
+      <h1>YO 7'HAIR BARBER</h1>
+      <p>Salon de barber et coiffure à Lille</p>
+      <a href="#rdv" class="btn">Prendre RDV</a>
+    </div>
   </header>
 
   <section>
     <h1>Le barbier préféré de ton barbier préféré !</h1>
   </section>
 
+<section class="services">
+  <div class="service-card">
+    <img src="coiffure.jpg" alt="Coiffure">
+    <div class="service-info">
+      <h2>Coiffure</h2>
+      <a href="#coiffure" class="btn-secondary">Lire la suite</a>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <img src="barbier.jpg" alt="Barbier">
+    <div class="service-info">
+      <h2>Barbier</h2>
+      <a href="#barbier" class="btn-secondary">Lire la suite</a>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <img src="coloration.jpg" alt="Coloration">
+    <div class="service-info">
+      <h2>Coloration</h2>
+      <a href="#coloration" class="btn-secondary">Lire la suite</a>
+    </div>
+  </div>
+</section>
+  
   <!-- Footer -->
   <footer>
     <p>© 2025 YO7'Hair Barber</p>
