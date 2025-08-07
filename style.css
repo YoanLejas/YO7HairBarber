@@ -1,94 +1,122 @@
-body {
+/* Réinitialisation */
+* {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #fefefe;
-  color: #222;
-}
-
-header.hero {
-  background-image: url('https://images.unsplash.com/photo-1510414696678-2415ad8474aa?auto=format&fit=crop&w=1600&q=80');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 120px 20px;
-  text-align: center;
-}
-
-header.hero h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 48px;
-  margin-bottom: 10px;
-}
-
-header.hero p {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.btn-primary {
-  background-color: black;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-  background-color: #333;
-}
-
-nav {
-  background-color: white;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  border-bottom: 1px solid #eee;
-  position: sticky;
-  top: 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
-
-section {
-  padding: 60px 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-section ul {
-  list-style: none;
   padding: 0;
+  box-sizing: border-box;
 }
 
-section li {
-  margin-bottom: 10px;
+body, html {
+  font-family: 'Arial', sans-serif;
+  height: 100%;
 }
 
-footer {
+/* Section Accueil */
+.hero {
+  background: url('background.jpg') center center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* effet sombre transparent */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 30px;
-  background-color: #f5f5f5;
-  font-size: 14px;
+  padding: 0 20px;
 }
 
-input[type="email"] {
-  padding: 10px;
-  font-size: 16px;
-  width: 250px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  margin-top: 10px;
+/* Logo */
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
 }
 
-button[type="submit"] {
-  margin-top: 10px;
+/* Titre & texte */
+h1 {
+  font-size: 3em;
+  color: #fff;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #f0e6d2; /* blanc cassé */
+  margin-bottom: 30px;
+  font-family: 'Georgia', serif;
+}
+
+/* Bouton */
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #b99a5c; /* doré */
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #b99a5c;
+  color: #000;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #111;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #000;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.service-info {
+  padding: 20px;
+  text-align: center;
+  background: url('texture.jpg'); /* à remplacer ou retirer si tu ne veux pas de texture */
+  background-size: cover;
+  background-color: #222;
+}
+
+.service-info h2 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #b99a5c;
+  color: #000;
+  border-color: #b99a5c;
 }
