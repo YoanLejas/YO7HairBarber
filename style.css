@@ -12,7 +12,7 @@ body, html {
 
 /* Section Accueil */
 .hero {
-  background: url('salon.png') center center/cover no-repeat;
+  background: url('images/salon.png') center center/cover no-repeat;
   height: 50vh;
   position: relative;
   color: #fff;
