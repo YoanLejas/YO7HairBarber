@@ -163,28 +163,36 @@ p {
 
 /* MENU LOGO + TEXTE */
 .logo-text-section {
-  padding: 60px 0;
-  background-color: #111; /* noir profond */
-  color: #f5f5f5; /* blanc cassé */
-}
-
-.logo-text-wrapper {
   display: flex;
   align-items: center;
   gap: 40px;
-  flex-wrap: wrap; /* mobile friendly */
+  padding: 60px 0;
+  background-color: #111; /* noir */
+  color: #f5f5f5; /* blanc cassé */
 }
 
-.logo-part img {
+.logo-img {
   max-width: 200px;
   height: auto;
 }
 
-.text-part h2 {
+.logo-text h2 {
   color: #d4af37; /* doré */
   margin-bottom: 15px;
 }
 
+.logo-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+  .logo-text-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .text-part p {
   font-size: 1.1rem;
   line-height: 1.6;
