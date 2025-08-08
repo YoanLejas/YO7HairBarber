@@ -6,8 +6,12 @@
 }
 
 body, html {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   height: 100%;
+}
+
+h1, h2, h3 {
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 /* Section Accueil */
