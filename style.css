@@ -193,7 +193,7 @@ p {
 }
 
 .split-right h2 {
-  color: #d4af37; /* doré */
+  color: #111; /* texte noir */
   margin-bottom: 15px;
   font-size: 2rem;
 }
@@ -202,14 +202,3 @@ p {
   font-size: 1.1rem;
   line-height: 1.6;
 }
-
-/* Mobile */
-@media (max-width: 768px) {
-  .split-section {
-    flex-direction: column;
-    text-align: center;
-  }
-  .split-right {
-    max-width: 100%;
-    text-align: center;
-  }
