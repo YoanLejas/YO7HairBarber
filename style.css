@@ -87,9 +87,10 @@ p {
 }
 
 .service-card img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  width: 100%;             /* l'image prend toute la largeur du bloc */
+  height: 250px;           /* hauteur fixe pour uniformiser */
+  object-fit: cover;       /* recadre l'image pour remplir sans déformation */
+  display: block;          /* évite les petits espaces blancs */
 }
 
 .service-info {
