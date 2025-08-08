@@ -209,7 +209,7 @@ p {
 }
 
 .split-right p {
-  color: #edebda; /* texte noir */
+  color: #111; /* texte noir */
   font-size: 1.1rem;
   line-height: 1.6;
 }
