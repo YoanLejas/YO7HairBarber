@@ -50,7 +50,6 @@ h1, h2, h3 {
   background: url('images/salon.png') center center/cover no-repeat; /* Image de fond centrée et couvrant toute la section */
   height: 50vh; /* Hauteur = moitié de la hauteur de l'écran */
   position: relative; /* Sert de référence pour un positionnement interne */
-  color: #fff; /* Texte en blanc */
 }
 
 .overlay {
@@ -75,24 +74,24 @@ h1 {
 /* Paragraphe */
 p {
   font-size: 1.2em; /* Taille du texte */
-  color: #f0e6d2; /* Blanc cassé */
+  color: #af885f; /* Doré */
   margin-bottom: 30px; /* Espace en bas */
 }
 
 /* Bouton principal */
 .btn {
-  background-color: #000; /* Fond noir */
-  color: #fff; /* Texte blanc */
+  background-color: #fff; /* Fond blanc */
+  color: #b6121d; /* Texte rouge */
   padding: 15px 30px; /* Taille du bouton */
   text-decoration: none; /* Pas de soulignement */
   font-weight: bold; /* Texte en gras */
   border-radius: 5px; /* Coins arrondis */
-  border: 2px solid #b99a5c; /* Bordure dorée */
+  border: 2px solid #b6121d; /* Bordure rouge */
   transition: 0.3s; /* Animation fluide */
 }
 
 .btn:hover {
-  background-color: #b99a5c; /* Fond doré au survol */
+  background-color: #b6121d; /* Fond rouge au survol */
   color: #000; /* Texte noir au survol */
 }
 
@@ -128,7 +127,7 @@ p {
 }
 
 .split-right h2 {
-  color: #111; /* Titre noir */
+  color: #af885f; /* Titre doré */
   margin-bottom: 15px; /* Espace en bas */
   font-size: 2rem; /* Taille du titre */
 }
