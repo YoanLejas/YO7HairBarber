@@ -19,33 +19,37 @@ h1, h2, h3 {
 
 h1 {
   font-size: 36px; /* Gros titre */
-  color: #fff;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
+  color: #fff; /* Couleur blanche */
+  margin-bottom: 10px; /* Espace dessous */
+  letter-spacing: 2px; /* Espacement entre les lettres */
 }
 
 h2 {
   font-size: 28px; /* Titre moyen */
-  color: #af885f;
-  margin-bottom: 15px;
+  color: #fff; /* Couleur blanche */
+  margin-bottom: 10px; /* Espace dessous */
+  letter-spacing: 2px; /* Espacement entre les lettres */
 }
 
 h3 {
   font-size: 22px; /* Sous-titre */
-  color: #af885f;
+  color: #fff; /* Couleur blanche */
+  margin-bottom: 10px; /* Espace dessous */
+  letter-spacing: 2px; /* Espacement entre les lettres */
 }
 
 /* Paragraphes */
 p {
   font-size: 16px; /* Texte courant */
-  color: #af885f;
-  margin-bottom: 30px;
+  color: #111; /* Couleur noire */
+  margin-bottom: 10px; /* Espace dessous */
 }
 
 /* Petits textes */
 a {
   font-size: 14px; /* Petit texte */
-  color: #af885f;
+  color: #111; /* Couleur noire */
+  margin-bottom: 10px; /* Espace dessous */
 }
 
 /* BARRE DE NIVIGATION */
@@ -93,21 +97,6 @@ a {
   justify-content: center; /* Centre verticalement */
   text-align: center; /* Centre le texte */
   padding: 0 20px; /* Ajoute de l'espace sur les côtés */
-}
-
-/* Titres principaux */
-h1 {
-  font-size: 3em; /* Taille du titre */
-  color: #fff; /* Couleur blanche */
-  margin-bottom: 10px; /* Espace sous le titre */
-  letter-spacing: 2px; /* Espacement entre les lettres */
-}
-
-/* Paragraphe */
-p {
-  font-size: 2em; /* Taille du texte */
-  color: #af885f; /* Doré */
-  margin-bottom: 30px; /* Espace en bas */
 }
 
 /* Bouton principal */
