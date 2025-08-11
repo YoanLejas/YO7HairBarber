@@ -173,7 +173,7 @@ p {
 }
 
 .service-info h2 {
-  color: #b9995c; /* Titre doré */
+  color: #af885f; /* Titre doré */
   margin-bottom: 15px; /* Espace en bas */
   font-size: 1.5em; /* Taille */
 }
@@ -181,16 +181,18 @@ p {
 .btn-secondary {
   display: inline-block;
   padding: 10px 20px; /* Taille du bouton */
-  color: #b9995c; /* Texte doré */
-  border: 1px solid #b9995c; /* Bordure dorée */
+  background-color: #fff; /* Fond blanc */
+  color: #af885f; /* Texte doré */
+  border: 1px solid #af885f; /* Bordure dorée */
   text-decoration: none; /* Pas de soulignement */
+  border-radius: 5px; /* Coins arrondis */
   transition: 0.3s; /* Animation fluide */
 }
 
 .btn-secondary:hover {
-  background-color: #b9995c; /* Fond doré au survol */
+  background-color: #af885f; /* Fond doré au survol */
   color: #fff; /* Texte blanc */
-  border-color: #b9995c; /* Bordure dorée */
+  border-color: #af885f; /* Bordure dorée */
 }
 
 /* FOOTER */
