@@ -74,7 +74,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #111;
+  background-color: #cfc7b3;
   padding: 50px 20px;
   gap: 20px;
 }
@@ -99,7 +99,6 @@ p {
 .service-info {
   padding: 20px;
   text-align: center;
-  background: url('texture.jpg'); /* à remplacer ou retirer si tu ne veux pas de texture */
   background-size: cover;
   background-color: #222;
 }
