@@ -208,6 +208,7 @@ p {
   display: grid; /* Grille */
   grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
   gap: 40px; /* Espace entre colonnes */
+  color: #111; /* Noir */
 }
 
 .footer-title {
