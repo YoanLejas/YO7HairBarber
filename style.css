@@ -156,7 +156,7 @@ a {
   gap: 20px; /* Espace entre les cartes */
 }
 
-.service-card {
+.services-card {
   background-color: #111; /* Fond noir */
   width: 300px; /* Largeur fixe */
   display: flex;
@@ -166,14 +166,14 @@ a {
   box-shadow: 0 0 10px rgba(0,0,0,0.4); /* Ombre */
 }
 
-.service-card img {
+.services-card img {
   width: 100%; /* Largeur totale du bloc */
   height: 250px; /* Hauteur fixe */
   object-fit: cover; /* Recadre pour remplir sans déformation */
   display: block; /* Supprime l’espace blanc sous l’image */
 }
 
-.service-info {
+.services-info {
   padding: 20px; /* Espace interne */
   text-align: center; /* Texte centré */
   background-size: cover;
