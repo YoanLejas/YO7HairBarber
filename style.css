@@ -150,7 +150,7 @@ p {
 }
 
 .service-card {
-  background-color: #fff; /* Fond blanc */
+  background-color: #111; /* Fond noir */
   width: 300px; /* Largeur fixe */
   display: flex;
   flex-direction: column; /* Contenu empilé verticalement */
@@ -170,11 +170,11 @@ p {
   padding: 20px; /* Espace interne */
   text-align: center; /* Texte centré */
   background-size: cover;
-  background-color: #222; /* Fond gris foncé */
+  background-color: #fff; /* Fond blanc */
 }
 
 .service-info h2 {
-  color: white; /* Titre blanc */
+  color: #b9995c; /* Titre doré */
   margin-bottom: 15px; /* Espace en bas */
   font-size: 1.5em; /* Taille */
 }
@@ -182,16 +182,16 @@ p {
 .btn-secondary {
   display: inline-block;
   padding: 10px 20px; /* Taille du bouton */
-  color: white; /* Texte blanc */
-  border: 1px solid #fff; /* Bordure blanche */
+  color: #b9995c; /* Texte doré */
+  border: 1px solid #b9995c; /* Bordure dorée */
   text-decoration: none; /* Pas de soulignement */
   transition: 0.3s; /* Animation fluide */
 }
 
 .btn-secondary:hover {
-  background-color: #b99a5c; /* Fond doré au survol */
-  color: #000; /* Texte noir */
-  border-color: #b99a5c; /* Bordure dorée */
+  background-color: #b9995c; /* Fond doré au survol */
+  color: #fff; /* Texte blanc */
+  border-color: #b9995c; /* Bordure dorée */
 }
 
 /* Footer */
