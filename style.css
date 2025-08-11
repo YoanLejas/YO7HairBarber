@@ -213,37 +213,48 @@ p {
 .footer-title {
   margin: 0 0 16px;
   font-size: 1.3rem;
-  color: #111; /* Noir */
+  color: #af885f; /* Doré */
   letter-spacing: .5px;
 }
 
-.footer-phone a {
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.footer-email a {
-  color: #e6d3a0;
-  font-weight: bold;
-  text-decoration: none;
-}
-.footer-email a:hover {
-  color: #b10f1e; /* Rouge foncé au survol */
-}
-
-.hours {
+.footer-hours {
   list-style: none; /* Supprime les puces */
   padding: 0;
   margin: 0;
 }
 
-.hours li {
+.footer-hours li {
   display: grid; /* Grille interne */
   grid-template-columns: 1fr auto; /* Jour à gauche, heure à droite */
   border-bottom: 1px solid rgba(230,211,160,.2); /* Ligne de séparation */
   padding: 8px 0;
   gap: 16px;
+}
+
+.footer-phone {
+  color: #111; /* Noir */
+}
+
+.footer-phone a {
+  color: #111; /* Noir */
+  text-decoration: none;
+}
+
+.footer-phone a:hover {
+  color: #b10f1e; /* Rouge foncé au survol */
+}
+
+.footer-email {
+  color: #111; /* Noir */
+}
+
+.footer-email a {
+  color: #111; /* Noir */
+  text-decoration: none;
+}
+
+.footer-email a:hover {
+  color: #b10f1e; /* Rouge foncé au survol */
 }
 
 .btn-outline {
