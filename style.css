@@ -71,7 +71,6 @@ a {
 }
 
 .navbar a {
-  color: #fff; /* Texte blanc */
   text-decoration: none; /* Pas de soulignement */
   font-weight: bold; /* Texte en gras */
   transition: color 0.3s; /* Animation */
@@ -102,7 +101,6 @@ a {
 /* Bouton principal */
 .btn {
   background-color: #fff; /* Fond blanc */
-  color: #af885f; /* Texte doré */
   padding: 15px 30px; /* Taille du bouton */
   text-decoration: none; /* Pas de soulignement */
   font-weight: bold; /* Texte en gras */
@@ -121,7 +119,6 @@ a {
   display: flex; /* Mise en ligne */
   min-height: 400px; /* Hauteur minimale */
   background-color: #fff; /* Blanc */
-  color: #111; /* Texte noir */
 }
 
 .split-left {
@@ -147,15 +144,7 @@ a {
   height: auto; /* Garde les proportions */
 }
 
-.split-right h2 {
-  color: #af885f; /* Titre doré */
-  margin-bottom: 15px; /* Espace en bas */
-  font-size: 2rem; /* Taille du titre */
-}
-
 .split-right p {
-  color: #111; /* Texte noir */
-  font-size: 1.5rem; /* Taille du texte */
   line-height: 1.6; /* Espacement entre lignes */
 }
 
@@ -193,17 +182,10 @@ a {
   background-color: #fff; /* Fond blanc */
 }
 
-.service-info h2 {
-  color: #af885f; /* Titre doré */
-  margin-bottom: 15px; /* Espace en bas */
-  font-size: 1.5em; /* Taille */
-}
-
 .btn-secondary {
   display: inline-block;
   padding: 10px 20px; /* Taille du bouton */
   background-color: #fff; /* Fond blanc */
-  color: #af885f; /* Texte doré */
   border: 1px solid #af885f; /* Bordure dorée */
   text-decoration: none; /* Pas de soulignement */
   border-radius: 5px; /* Coins arrondis */
@@ -234,8 +216,6 @@ a {
 
 .footer-title {
   margin: 0 0 16px;
-  font-size: 1.5em; /* Taille */
-  color: #af885f; /* Doré */
   letter-spacing: .5px;
 }
 
@@ -253,12 +233,7 @@ a {
   gap: 16px;
 }
 
-.footer-phone {
-  color: #111; /* Noir */
-}
-
 .footer-phone a {
-  color: #111; /* Noir */
   text-decoration: none;
 }
 
@@ -266,12 +241,7 @@ a {
   color: #b10f1e; /* Rouge foncé au survol */
 }
 
-.footer-email {
-  color: #111; /* Noir */
-}
-
 .footer-email a {
-  color: #111; /* Noir */
   text-decoration: none;
 }
 
@@ -283,6 +253,4 @@ a {
   background-color: #111; /* Fond noir */
   text-align: center; /* Centré */
   padding: 16px 20px 24px;
-  font-size: .9rem; /* Petit texte */
-  color: #fff; /* Texte blanc */
 }
