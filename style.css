@@ -262,10 +262,3 @@ p {
   font-size: .9rem; /* Petit texte */
   color: #cfc7b3; /* Beige/gris clair */
 }
-
-@media (max-width: 900px) {
-  .footer-grid {
-    grid-template-columns: 1fr; /* Une colonne sur mobile */
-  }
-}
-
