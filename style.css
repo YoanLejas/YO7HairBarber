@@ -257,25 +257,10 @@ p {
   color: #b10f1e; /* Rouge foncé au survol */
 }
 
-.btn-outline {
-  display: inline-block;
-  margin-top: 14px;
-  padding: 10px 18px;
-  border: 1px solid #111; /* Noir */
-  color: #fff; /* Blanc */
-  text-decoration: none;
-  transition: .25s; /* Animation fluide */
-}
-
-.btn-outline:hover {
-  background: #e6d3a0; /* Fond doré au survol */
-  color: #111; /* Texte noir */
-}
-
 .footer-bottom {
-  border-top: 1px solid rgba(230,211,160,.2); /* Ligne supérieure */
+  background-color: #111; /* Fond noir */
   text-align: center; /* Centré */
   padding: 16px 20px 24px;
   font-size: .9rem; /* Petit texte */
-  color: #cfc7b3; /* Beige/gris clair */
+  color: #fff; /* Texte blanc */
 }
