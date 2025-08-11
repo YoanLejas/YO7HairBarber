@@ -16,6 +16,35 @@ h1, h2, h3 {
   font-family: 'Bebas Neue', sans-serif; /* Police décorative pour les titres */
 }
 
+/* Barre de navigation */
+.navbar {
+  background-color: #000; /* Fond noir */
+  padding: 10px 20px; /* Espacement interne */
+  position: sticky; /* Collée en haut lors du scroll */
+  top: 0; /* Position haute */
+  z-index: 1000; /* Toujours au-dessus */
+}
+
+.navbar ul {
+  list-style: none; /* Supprime les puces */
+  display: flex; /* Affiche en ligne */
+  justify-content: center; /* Centre horizontalement */
+  gap: 40px; /* Espace entre les liens */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #fff; /* Texte blanc */
+  text-decoration: none; /* Pas de soulignement */
+  font-weight: bold; /* Texte en gras */
+  transition: color 0.3s; /* Animation */
+}
+
+.navbar a:hover {
+  color: #b99a5c; /* Doré au survol */
+}
+
 /* Section Accueil (Hero) */
 .hero {
   background: url('images/salon.png') center center/cover no-repeat; /* Image de fond centrée et couvrant toute la section */
@@ -33,12 +62,6 @@ h1, h2, h3 {
   justify-content: center; /* Centre verticalement */
   text-align: center; /* Centre le texte */
   padding: 0 20px; /* Ajoute de l'espace sur les côtés */
-}
-
-/* Logo */
-.logo {
-  width: 150px; /* Largeur fixe */
-  margin-bottom: 20px; /* Espace sous le logo */
 }
 
 /* Titres principaux */
@@ -73,18 +96,61 @@ p {
   color: #000; /* Texte noir au survol */
 }
 
+/* Section avec logo à gauche et texte à droite */
+.split-section {
+  display: flex; /* Mise en ligne */
+  min-height: 400px; /* Hauteur minimale */
+  background-color: #fff; /* Blanc */
+  color: #111; /* Texte noir */
+}
+
+.split-left {
+  width: 40%; /* Largeur bloc gauche */
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: flex-end; /* Place le logo vers la droite */
+  padding: 40px; /* Espace interne */
+}
+
+.split-right {
+  width: 60%; /* Largeur bloc droit */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Texte aligné à gauche */
+  justify-content: center; /* Centre verticalement */
+  max-width: 600px;
+  padding: 40px;
+}
+
+.split-left img {
+  max-width: 250px; /* Taille max du logo */
+  height: auto; /* Garde les proportions */
+}
+
+.split-right h2 {
+  color: #111; /* Titre noir */
+  margin-bottom: 15px; /* Espace en bas */
+  font-size: 2rem; /* Taille du titre */
+}
+
+.split-right p {
+  color: #111; /* Texte noir */
+  font-size: 1.1rem; /* Taille du texte */
+  line-height: 1.6; /* Espacement entre lignes */
+}
+
 /* Section Services */
 .services {
   display: flex; /* Active Flexbox */
   flex-wrap: wrap; /* Retour à la ligne si besoin */
   justify-content: center; /* Centre les éléments */
-  background-color: #cfc7b3; /* Fond beige */
+  background-color: #111; /* Fond noir */
   padding: 50px 20px; /* Espace interne */
   gap: 20px; /* Espace entre les cartes */
 }
 
 .service-card {
-  background-color: #000; /* Fond noir */
+  background-color: #fff; /* Fond blanc */
   width: 300px; /* Largeur fixe */
   display: flex;
   flex-direction: column; /* Contenu empilé verticalement */
@@ -128,36 +194,7 @@ p {
   border-color: #b99a5c; /* Bordure dorée */
 }
 
-/* Barre de navigation */
-.navbar {
-  background-color: #000; /* Fond noir */
-  padding: 10px 20px; /* Espacement interne */
-  position: sticky; /* Collée en haut lors du scroll */
-  top: 0; /* Position haute */
-  z-index: 1000; /* Toujours au-dessus */
-}
-
-.navbar ul {
-  list-style: none; /* Supprime les puces */
-  display: flex; /* Affiche en ligne */
-  justify-content: center; /* Centre horizontalement */
-  gap: 40px; /* Espace entre les liens */
-  margin: 0;
-  padding: 0;
-}
-
-.navbar a {
-  color: #fff; /* Texte blanc */
-  text-decoration: none; /* Pas de soulignement */
-  font-weight: bold; /* Texte en gras */
-  transition: color 0.3s; /* Animation */
-}
-
-.navbar a:hover {
-  color: #b99a5c; /* Doré au survol */
-}
-
-/* ===== Footer ===== */
+/* Footer */
 .footer {
   position: relative;
   color: #f4efe3; /* Blanc cassé */
@@ -231,45 +268,3 @@ p {
   }
 }
 
-/* Section avec logo à gauche et texte à droite */
-.split-section {
-  display: flex; /* Mise en ligne */
-  min-height: 400px; /* Hauteur minimale */
-  background-color: #f5f5f5; /* Blanc cassé */
-  color: #111; /* Texte noir */
-}
-
-.split-left {
-  width: 40%; /* Largeur bloc gauche */
-  display: flex;
-  align-items: center; /* Centre verticalement */
-  justify-content: flex-end; /* Place le logo vers la droite */
-  padding: 40px; /* Espace interne */
-}
-
-.split-right {
-  width: 60%; /* Largeur bloc droit */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Texte aligné à gauche */
-  justify-content: center; /* Centre verticalement */
-  max-width: 600px;
-  padding: 40px;
-}
-
-.split-left img {
-  max-width: 250px; /* Taille max du logo */
-  height: auto; /* Garde les proportions */
-}
-
-.split-right h2 {
-  color: #111; /* Titre noir */
-  margin-bottom: 15px; /* Espace en bas */
-  font-size: 2rem; /* Taille du titre */
-}
-
-.split-right p {
-  color: #111; /* Texte noir */
-  font-size: 1.1rem; /* Taille du texte */
-  line-height: 1.6; /* Espacement entre lignes */
-}
