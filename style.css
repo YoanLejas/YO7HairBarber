@@ -73,7 +73,7 @@ h1 {
 
 /* Paragraphe */
 p {
-  font-size: 1.2em; /* Taille du texte */
+  font-size: 2em; /* Taille du texte */
   color: #af885f; /* Doré */
   margin-bottom: 30px; /* Espace en bas */
 }
@@ -134,7 +134,7 @@ p {
 
 .split-right p {
   color: #111; /* Texte noir */
-  font-size: 1.1rem; /* Taille du texte */
+  font-size: 1.5rem; /* Taille du texte */
   line-height: 1.6; /* Espacement entre lignes */
 }
 
@@ -212,7 +212,7 @@ p {
 
 .footer-title {
   margin: 0 0 16px;
-  font-size: 1.3rem;
+  font-size: 1.5em; /* Taille */
   color: #af885f; /* Doré */
   letter-spacing: .5px;
 }
