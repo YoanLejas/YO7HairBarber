@@ -154,14 +154,62 @@ p {
   color: #b99a5c; /* Doré */
 }
 
-/* FOOTER */
+/* ===== Footer Adresse / Horaires / Contact ===== */
 .footer {
-  background-color: #000;
-  color: #f0e6d2;
+  position: relative;
+  background: url('images/barbershop-bg.jpg') center/cover no-repeat, #0d0d0d; /* optionnel */
+  color: #f4efe3;
+}
+.footer .footer-overlay {
+  background: rgba(0,0,0,.7); /* assombrit l'image de fond */
+}
+.footer-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.footer h3 {
+  margin: 0 0 16px;
+  font-size: 1.3rem;
+  color: #e6d3a0;
+  letter-spacing: .5px;
+}
+.footer a { color: #e6d3a0; text-decoration: none; }
+.footer a:hover { color: #b10f1e; }
+
+.hours { list-style: none; padding: 0; margin: 0; }
+.hours li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-bottom: 1px solid rgba(230,211,160,.2);
+  padding: 8px 0;
+  gap: 16px;
+}
+
+.btn-outline {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 10px 18px;
+  border: 1px solid #e6d3a0;
+  color: #f4efe3;
+  text-decoration: none;
+  transition: .25s;
+}
+.btn-outline:hover { background: #e6d3a0; color: #111; }
+
+.footer-bottom {
+  border-top: 1px solid rgba(230,211,160,.2);
   text-align: center;
-  padding: 20px;
-  margin-top: 50px;
-  font-size: 0.9em;
+  padding: 16px 20px 24px;
+  font-size: .9rem;
+  color: #cfc7b3;
+}
+
+@media (max-width: 900px) {
+  .footer-grid { grid-template-columns: 1fr; }
 }
 
 /* MENU LOGO + TEXTE */
