@@ -154,14 +154,10 @@ p {
   color: #b99a5c; /* Doré */
 }
 
-/* ===== Footer Adresse / Horaires / Contact ===== */
+/* ===== Footer ===== */
 .footer {
   position: relative;
-  background: url('images/barbershop-bg.jpg') center/cover no-repeat, #0d0d0d; /* optionnel */
   color: #f4efe3;
-}
-.footer .footer-overlay {
-  background: rgba(0,0,0,.7); /* assombrit l'image de fond */
 }
 .footer-grid {
   max-width: 1200px;
