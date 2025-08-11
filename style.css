@@ -81,18 +81,18 @@ p {
 /* Bouton principal */
 .btn {
   background-color: #fff; /* Fond blanc */
-  color: #b6121d; /* Texte rouge */
+  color: #af885f; /* Texte doré */
   padding: 15px 30px; /* Taille du bouton */
   text-decoration: none; /* Pas de soulignement */
   font-weight: bold; /* Texte en gras */
   border-radius: 5px; /* Coins arrondis */
-  border: 2px solid #b6121d; /* Bordure rouge */
+  border: 2px solid #af885f; /* Bordure dorée */
   transition: 0.3s; /* Animation fluide */
 }
 
 .btn:hover {
-  background-color: #b6121d; /* Fond rouge au survol */
-  color: #000; /* Texte noir au survol */
+  background-color: #af885f; /* Fond doré au survol */
+  color: #fff; /* Texte blanc au survol */
 }
 
 /* SECTION LOGO/TEXTE */
