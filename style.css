@@ -16,7 +16,7 @@ h1, h2, h3 {
   font-family: 'Bebas Neue', sans-serif; /* Police décorative pour les titres */
 }
 
-/* Barre de navigation */
+/* BARRE DE NIVIGATION */
 .navbar {
   background-color: #000; /* Fond noir */
   padding: 10px 20px; /* Espacement interne */
@@ -45,7 +45,7 @@ h1, h2, h3 {
   color: #b99a5c; /* Doré au survol */
 }
 
-/* Section Accueil (Hero) */
+/* SECTION ACCUEIL */
 .hero {
   background: url('images/salon.png') center center/cover no-repeat; /* Image de fond centrée et couvrant toute la section */
   height: 50vh; /* Hauteur = moitié de la hauteur de l'écran */
@@ -96,7 +96,7 @@ p {
   color: #000; /* Texte noir au survol */
 }
 
-/* Section avec logo à gauche et texte à droite */
+/* SECTION LOGO/TEXTE */
 .split-section {
   display: flex; /* Mise en ligne */
   min-height: 400px; /* Hauteur minimale */
@@ -139,7 +139,7 @@ p {
   line-height: 1.6; /* Espacement entre lignes */
 }
 
-/* Section Services */
+/* SECTION SERVICES */
 .services {
   display: flex; /* Active Flexbox */
   flex-wrap: wrap; /* Retour à la ligne si besoin */
@@ -194,10 +194,10 @@ p {
   border-color: #b9995c; /* Bordure dorée */
 }
 
-/* Footer */
+/* FOOTER */
 .footer {
   position: relative;
-  color: #f4efe3; /* Blanc cassé */
+  color: #fff; /* Blanc */
 }
 
 .footer-grid {
@@ -205,19 +205,19 @@ p {
   margin: 0 auto; /* Centre */
   padding: 60px 20px 30px; /* Espacement interne */
   display: grid; /* Grille */
-  grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+  grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
   gap: 40px; /* Espace entre colonnes */
 }
 
 .footer h3 {
   margin: 0 0 16px;
   font-size: 1.3rem;
-  color: #e6d3a0; /* Doré */
+  color: #111; /* Noir */
   letter-spacing: .5px;
 }
 
 .footer a {
-  color: #e6d3a0; /* Doré */
+  color: #111; /* Noir */
   text-decoration: none;
 }
 
@@ -243,8 +243,8 @@ p {
   display: inline-block;
   margin-top: 14px;
   padding: 10px 18px;
-  border: 1px solid #e6d3a0; /* Doré */
-  color: #f4efe3; /* Blanc cassé */
+  border: 1px solid #111; /* Noir */
+  color: #fff; /* Blanc */
   text-decoration: none;
   transition: .25s; /* Animation fluide */
 }
