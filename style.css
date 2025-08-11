@@ -9,11 +9,37 @@
 body, html {
   font-family: 'Montserrat', sans-serif; /* Police principale */
   height: 100%; /* Permet aux sections pleine hauteur de s'afficher correctement */
+  font-size: 16px; /* Base pour tout le site */
 }
 
-/* Titres avec police spécifique */
+/* Titres */
 h1, h2, h3 {
   font-family: 'Bebas Neue', sans-serif; /* Police décorative pour les titres */
+}
+
+h1 {
+  font-size: 36px; /* Gros titre */
+  color: #fff;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 28px; /* Titre moyen */
+  color: #af885f;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 22px; /* Sous-titre */
+  color: #af885f;
+}
+
+/* Paragraphes */
+p {
+  font-size: 16px; /* Texte courant */
+  color: #af885f;
+  margin-bottom: 30px;
 }
 
 /* BARRE DE NIVIGATION */
