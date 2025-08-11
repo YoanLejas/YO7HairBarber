@@ -28,14 +28,12 @@ h2 {
   font-size: 28px; /* Titre moyen */
   color: #af885f; /* Couleur dorée */
   margin-bottom: 10px; /* Espace dessous */
-  letter-spacing: 2px; /* Espacement entre les lettres */
 }
 
 h3 {
   font-size: 22px; /* Sous-titre */
   color: #af885f; /* Couleur dorée */
   margin-bottom: 10px; /* Espace dessous */
-  letter-spacing: 2px; /* Espacement entre les lettres */
 }
 
 /* Paragraphes */
