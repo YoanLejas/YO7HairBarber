@@ -17,34 +17,34 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 48px; /* Gros titre */
+  font-size: 48px; /* Taille du texte */
   color: #fff; /* Couleur blanche */
   margin-bottom: 10px; /* Espace dessous */
   letter-spacing: 2px; /* Espacement entre les lettres */
 }
 
 h2 {
-  font-size: 36px; /* Titre moyen */
+  font-size: 36px; /* Taille du texte */
   color: #af885f; /* Couleur dorée */
   margin-bottom: 10px; /* Espace dessous */
   letter-spacing: 2px; /* Espacement entre les lettres */
 }
 
 h3 {
-  font-size: 28px; /* Sous-titre */
+  font-size: 28px; /* Taille du texte */
   color: #af885f; /* Couleur dorée */
   margin-bottom: 10px; /* Espace dessous */
   letter-spacing: 2px; /* Espacement entre les lettres */
 }
 
 p {
-  font-size: 22px; /* Texte courant */
+  font-size: 22px; /* Taille du texte */
   color: #111; /* Couleur noire */
   margin-bottom: 10px; /* Espace dessous */
 }
 
 a {
-  font-size: 18px; /* Petit texte */
+  font-size: 18px; /* Taille du texte */
   color: #af885f; /* Couleur dorée */
   margin-bottom: 10px; /* Espace dessous */
 }
