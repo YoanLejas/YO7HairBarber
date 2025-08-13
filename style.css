@@ -236,18 +236,13 @@ a {
   gap: 16px;
 }
 
-.footer-phone a {
-  text-decoration: none;
-}
-
-.footer-phone a:hover {
-  color: #b10f1e; /* Rouge foncé au survol */
-}
-
+.footer-phone a,
 .footer-email a {
+  font-size: inherit; /* Hérite la taille du parent (<p>) */
+  margin-bottom: inherit; /* Hérite l'espace dessous du parent (<p>) */
   text-decoration: none;
-}
 
+.footer-phone a:hover,
 .footer-email a:hover {
   color: #b10f1e; /* Rouge foncé au survol */
 }
