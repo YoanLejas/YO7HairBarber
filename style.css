@@ -241,6 +241,7 @@ a {
   font-size: inherit; /* Hérite la taille du parent (<p>) */
   margin-bottom: inherit; /* Hérite l'espace dessous du parent (<p>) */
   text-decoration: none;
+}
 
 .footer-phone a:hover,
 .footer-email a:hover {
