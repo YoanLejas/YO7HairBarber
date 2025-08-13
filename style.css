@@ -10,6 +10,7 @@ body, html {
   font-family: 'Montserrat', sans-serif; /* Police principale */
   height: 100%; /* Permet aux sections pleine hauteur de s'afficher correctement */
   font-size: 22px; /* Base pour tout le site */
+  text-align: justify; /* Alignement du texte */
 }
 
 h1, h2, h3 {
