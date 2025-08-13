@@ -147,6 +147,11 @@ a {
 }
 
 /* SECTION SERVICES */
+.services-title {
+  width: 100%;           /* Occupe toute la ligne */
+  text-align: center;    /* Centre le texte */
+}
+
 .services {
   display: flex; /* Active Flexbox */
   flex-wrap: wrap; /* Retour à la ligne si besoin */
