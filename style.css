@@ -76,13 +76,13 @@ a {
 }
 
 /* SECTION ACCUEIL */
-.hero {
+.banner {
   background: url('images/salon.png') center center/cover no-repeat; /* Image de fond centrée et couvrant toute la section */
   height: 50vh; /* Hauteur = moitié de la hauteur de l'écran */
   position: relative; /* Sert de référence pour un positionnement interne */
 }
 
-.overlay {
+.banner-black-filter {
   background-color: rgba(0, 0, 0, 0.6); /* Superposition sombre transparente */
   height: 100%; /* Prend toute la hauteur du hero */
   display: flex; /* Active Flexbox */
@@ -93,7 +93,13 @@ a {
   padding: 0 20px; /* Ajoute de l'espace sur les côtés */
 }
 
-.btn {
+.banner-title {
+}
+
+.banner-subtitle {
+}
+
+.banner-btn {
   background-color: #fff; /* Fond blanc */
   padding: 15px 30px; /* Taille du bouton */
   text-decoration: none; /* Pas de soulignement */
@@ -103,7 +109,7 @@ a {
   transition: 0.3s; /* Animation fluide */
 }
 
-.btn:hover {
+.banner-btn:hover {
   background-color: #af885f; /* Fond doré au survol */
   color: #fff; /* Texte blanc au survol */
 }
