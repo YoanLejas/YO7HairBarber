@@ -204,7 +204,7 @@ a {
   padding: 10px 20px; /* Taille du bouton */
   background-color: #fff; /* Fond blanc */
   color: #b41220; / Couleur du texte */
-  border-color: #b41220; /* Couleur de la bordure */
+  border: 2px solid #b41220; /* Couleur de la bordure */
   text-decoration: none; /* Pas de soulignement */
   border-radius: 5px; /* Coins arrondis */
   transition: 0.3s; /* Animation fluide */
