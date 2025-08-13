@@ -78,7 +78,7 @@ a {
 /* SECTION ACCUEIL */
 .banner {
   background: url('images/salon.png') center center/cover no-repeat; /* Image de fond centrée et couvrant toute la section */
-  height: 50vh; /* Hauteur = moitié de la hauteur de l'écran */
+  height: 66vh; /* Hauteur = moitié de la hauteur de l'écran */
   position: relative; /* Sert de référence pour un positionnement interne */
 }
 
@@ -94,14 +94,26 @@ a {
 }
 
 .banner-title {
+  font-size: 64px; /* Taille du texte */
+  color: #fff; /* Couleur blanche */
+  margin-bottom: 15px; /* Espace avec le sous-titre */
+  letter-spacing: 1.5px; /* Espacement entre les lettres */
+  font-weight: 700; /* Epaisseur du texte */
 }
 
 .banner-subtitle {
+  font-size: 28px; /* Taille du texte */
+  color: #af885f; /* Couleur dorée */
+  margin-bottom: 25px; /* Espace dessous */
+  letter-spacing: 2px; /* Espacement entre les lettres */
+  font-weight: 400; /* Epaisseur du texte */
 }
 
 .banner-btn {
   background-color: #fff; /* Fond blanc */
+  color: #af885f; /* Couleur dorée */
   padding: 15px 30px; /* Taille du bouton */
+  font-size: 16px; /* Taille du texte */
   text-decoration: none; /* Pas de soulignement */
   font-weight: bold; /* Texte en gras */
   border-radius: 5px; /* Coins arrondis */
