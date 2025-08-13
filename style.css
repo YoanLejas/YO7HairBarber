@@ -230,6 +230,7 @@ a {
   grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
   gap: 40px; /* Espace entre colonnes */
   color: #111; /* Noir */
+  align-items: center; /* aligne verticalement au centre */
 }
 
 .footer-title {
