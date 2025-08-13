@@ -85,12 +85,6 @@ a {
   position: relative; /* Sert de référence pour un positionnement interne */
 }
 
-.banner-logo {
-  max-width: 150px; /* Largeur maximale */
-  height: auto;     /* Garde les proportions */
-  margin-bottom: 20px; /* Espace sous le logo */
-}
-
 .banner-black-filter {
   background-color: rgba(0, 0, 0, 0.6); /* Superposition sombre transparente */
   height: 100%; /* Prend toute la hauteur du hero */
@@ -100,6 +94,12 @@ a {
   justify-content: center; /* Centre verticalement */
   text-align: center; /* Centre le texte */
   padding: 0 20px; /* Ajoute de l'espace sur les côtés */
+}
+
+.banner-logo {
+  max-width: 150px; /* Largeur maximale */
+  height: auto;     /* Garde les proportions */
+  margin-bottom: 25px; /* Espace sous le logo */
 }
 
 .banner-subtitle {
