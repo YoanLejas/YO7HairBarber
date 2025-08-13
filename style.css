@@ -97,7 +97,7 @@ a {
 }
 
 .banner-logo {
-  max-width: 150px; /* Largeur maximale */
+  width: 250px; /* Largeur */
   height: auto;     /* Garde les proportions */
   margin-bottom: 25px; /* Espace sous le logo */
 }
@@ -106,25 +106,23 @@ a {
   font-size: 28px; /* Taille du texte */
   color: #af885f; /* Couleur dorée */
   margin-bottom: 25px; /* Espace dessous */
-  letter-spacing: 2px; /* Espacement entre les lettres */
-  font-weight: 400; /* Epaisseur du texte */
+  font-weight: bold; /* Epaisseur du texte */
 }
 
 .banner-btn {
   background-color: #fff; /* Fond blanc */
-  color: #af885f; /* Couleur dorée */
+  color: #b41220; /* Couleur du texte */
   padding: 15px 30px; /* Taille du bouton */
-  font-size: 16px; /* Taille du texte */
-  text-decoration: none; /* Pas de soulignement */
+  font-size: 18px; /* Taille du texte */
   font-weight: bold; /* Texte en gras */
-  border-radius: 5px; /* Coins arrondis */
-  border: 2px solid #af885f; /* Bordure dorée */
+  border-radius: 5px; /* Arrondissement des coins */
+  border: 2px solid #b41220; /* Couleur de la bordure */
   transition: 0.3s; /* Animation fluide */
 }
 
 .banner-btn:hover {
-  background-color: #af885f; /* Fond doré au survol */
-  color: #fff; /* Texte blanc au survol */
+  background-color: #b41220; /* Couleur du fond au survol */
+  color: #fff; /* Couleur du texte au survol */
 }
 
 /* SECTION LOGO/TEXTE */
@@ -204,16 +202,16 @@ a {
   display: inline-block;
   padding: 10px 20px; /* Taille du bouton */
   background-color: #fff; /* Fond blanc */
-  border: 1px solid #af885f; /* Bordure dorée */
+  border: 1px solid #b41220; /* Couleur de la bordure */
   text-decoration: none; /* Pas de soulignement */
   border-radius: 5px; /* Coins arrondis */
   transition: 0.3s; /* Animation fluide */
 }
 
 .btn-secondary:hover {
-  background-color: #af885f; /* Fond doré au survol */
-  color: #fff; /* Texte blanc */
-  border-color: #af885f; /* Bordure dorée */
+  background-color: #b41220; /* Couleur du fond au survol */
+  color: #fff; /* Couleur du texte au survol */
+  border-color: #b41220; /* Couleur de la bordure */
 }
 
 /* FOOTER */
@@ -229,13 +227,19 @@ a {
   display: grid; /* Grille */
   grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
   gap: 40px; /* Espace entre colonnes */
-  color: #111; /* Noir */
   align-items: center; /* aligne verticalement au centre */
 }
 
 .footer-title {
   margin: 0 0 16px;
   letter-spacing: .5px;
+}
+
+.footer-hours,
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centre verticalement le contenu */
 }
 
 .footer-hours {
