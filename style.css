@@ -229,7 +229,6 @@ a {
   display: grid; /* Grille */
   grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
   gap: 40px; /* Espace entre colonnes */
-  align-items: center; /* aligne verticalement au centre */
   color: #111; /* Couleur du texte */
 }
 
@@ -274,7 +273,7 @@ a {
 
 .footer-bottom {
   background-color: #111; /* Fond noir */
-  color: #af885f; /* Texte doré */
+  color: #af885f !important; /* Texte doré */
   text-align: center; /* Centré */
   padding: 16px 20px 24px;
 }
