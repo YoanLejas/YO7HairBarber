@@ -243,7 +243,8 @@ a {
 .footer-contact {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centre verticalement le contenu */
+  justify-content: center; /* centre tout dans la hauteur */
+  height: 100%; /* occupe toute la hauteur de la cellule de la grille */
 }
 
 .footer-hours {
