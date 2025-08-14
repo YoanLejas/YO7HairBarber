@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <title>YO7'Hair Barber - Accueil</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Google Fonts : BDD de polices de texte -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap">
 
   <!-- Feuille de style externe -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -19,13 +23,12 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-WS585D5S');</script>
 </head>
-
 <body>
   <!-- GTM noscript -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS585D5S"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-  <!-- BARRE DE NAVIGATION -->
+  <!-- Barre de navigation -->
     <nav class="navbar">
       <a href="index.html" class="menu-link">Accueil</a> |
       <a href="prestations.html" class="menu-link">Prestations</a> |
@@ -33,21 +36,22 @@
       <a href="contact.html" class="menu-link">Contact</a>
     </nav>
   
-  <!-- BANNIERE -->
+  <!-- Bannière -->
     <header class="banner">
       <div class="banner-black-filter">
-        <img src="images/logo.jpg" alt="YO7'Hair Barber logo" class="banner-logo">
+        <img src="images/logo.jpg" class="banner-logo">
         <p class="banner-subtitle">Le barber préféré de ton barber préféré !</p>
-        <a href="#rdv" class="banner-btn">Prendre RDV</a>
+        <a href="prestations.html" class="banner-btn">Prendre RDV</a>
       </div>
     </header>
   
-  <!-- SECTION LOGO + TEXTE -->
+  <!-- Section "logo + texte" -->
     <section class="split-section">
-      <div class="split-left">
-        <img src="images/logo.jpg" alt="YO7'Hair Barber logo">
+      <div class="split-logo">
+        <img src="images/logo.jpg">
       </div>
-      <div class="split-right">
+      
+      <div class="split-text">
         <h2>À propos de YO7'Hair Barber</h2>
         <p>
           Chez YO7'Hair Barber, chaque coupe est plus qu’un simple passage chez le coiffeur — 
@@ -56,30 +60,31 @@
       </div>
     </section>
 
-  <!-- SECTION SERVICES -->
+  <!-- Section "services" -->
     <section class="services">
       <h2 class="services-title">Nos services</h2>
 
         <div class="services-card">
-          <img src="images/degrade_coupe.jpg" alt="Dégradé + coupe">
+          <img src="images/degrade_coupe.jpg">
           <div class="services-info">
             <h3>Dégradé + coupe</h3>
-            <a href="#degrade_coupe" class="btn-secondary">Prendre RDV</a>
+            <a href="prestations.html" class="btn-secondary">Prendre RDV</a>
           </div>
         </div>
           
         <div class="services-card">
-          <img src="images/degrade.jpg" alt="Dégradé">
+          <img src="images/degrade.jpg">
           <div class="services-info">
             <h3>Dégradé</h3>
-            <a href="#degrade" class="btn-secondary">Prendre RDV</a>
+            <a href="prestations.html" class="btn-secondary">Prendre RDV</a>
           </div>
         </div>
     </section>
   
-  <!-- FOOTER -->
+  <!-- Footer -->
     <footer class="footer" id="contact">
         <div class="footer-grid">
+          
           <div class="footer-hours">
             <h3 class="footer-title">Nos horaires</h3>
             <ul>
@@ -107,5 +112,4 @@
         </div>
     </footer>
 </body>
-
 </html>
