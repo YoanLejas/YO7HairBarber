@@ -272,7 +272,7 @@ a {
 }
 
 .footer-bottom {
-  background-color: #111; /* Fond noir */
+  background-color: #fff; /* Couleur du fond */
   color: #af885f !important; /* Texte doré */
   text-align: center; /* Centré */
   padding: 16px 20px 24px;
