@@ -139,8 +139,12 @@ a {
   align-items: center; /* Centre verticalement le contenu (logo) dans la hauteur disponible */
   justify-content: flex-end; /* Aligne le contenu vers la droite */
   padding: 40px; /* Ajoute un espace intérieur de 40px sur tous les côtés */
-  max-width: 250px; /* Largeur maximum de l'image */
-  height: auto; /* Adapte automatiquement la hauteur pour garder les proportions de l'image */
+}
+
+.split-logo img {
+  max-width: 250px;   /* taille max du logo */
+  height: auto;       /* garde les proportions */
+  display: block;     /* évite l’espace sous l’image */
 }
 
 .split-text {
