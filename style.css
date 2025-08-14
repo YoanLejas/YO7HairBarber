@@ -201,13 +201,14 @@ a {
 
 .btn-secondary {
   display: inline-block;
-  padding: 10px 20px; /* Taille du bouton */
   background-color: #fff; /* Fond blanc */
   color: #b41220; / Couleur du texte */
-  border: 2px solid #b41220; /* Couleur de la bordure */
-  text-decoration: none; /* Pas de soulignement */
+  padding: 10px 20px; /* Taille du bouton */
+  font-weight: bold; /* Texte en gras */
   border-radius: 5px; /* Coins arrondis */
+  border: 2px solid #b41220; /* Couleur de la bordure */
   transition: 0.3s; /* Animation fluide */
+  text-decoration: none; /* Pas de soulignement */
 }
 
 .btn-secondary:hover {
