@@ -238,8 +238,9 @@ a {
   display: flex;
   flex-direction: column;
   height: 100%;            /* occupe toute la hauteur de la ligne */
-  align-items: flex-start; /* Aligne à gauche dans chaque colonne */
+  align-items: center; /* centre horizontalement */
   justify-content: flex-start; /* Aligne en haut */
+  display: flex;
 }
 
 .footer-title {
@@ -263,13 +264,6 @@ a {
   gap: 16px;
 }
 
-
-
-
-
-
-
-  
 .footer-phone a,
 .footer-email a {
   font-size: inherit; /* Hérite la taille du parent (<p>) */
