@@ -258,7 +258,7 @@ a {
   grid-template-columns: 1fr auto; /* Jour à gauche, heure à droite */
   border-bottom: 1px solid rgba(230,211,160,.2); /* Ligne de séparation */
   padding: 8px 0;
-  gap: 40px;
+  gap: 60px;
 }
 
 .footer-phone a,
