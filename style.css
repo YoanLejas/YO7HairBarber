@@ -230,17 +230,14 @@ a {
   grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
   gap: 40px; /* Espace entre colonnes */
   color: #111; /* Couleur du texte */
-  align-items: start; /* Aligne les contenus en haut *
 }
 
 .footer-hours,
 .footer-contact {
   display: flex;
   flex-direction: column;
-  height: 100%;            /* occupe toute la hauteur de la ligne */
   align-items: center; /* centre horizontalement */
   justify-content: flex-start; /* Aligne en haut */
-  display: flex;
 }
 
 .footer-title {
