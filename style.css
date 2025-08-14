@@ -230,13 +230,16 @@ a {
   grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
   gap: 40px; /* Espace entre colonnes */
   color: #111; /* Couleur du texte */
+  align-items: start; /* Aligne les contenus en haut *
 }
 
-.footer-grid > div {
+.footer-hours,
+.footer-contact {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centre verticalement titre + contenu */
   height: 100%;            /* occupe toute la hauteur de la ligne */
+  align-items: flex-start; /* Aligne à gauche dans chaque colonne */
+  justify-content: flex-start; /* Aligne en haut */
 }
 
 .footer-title {
@@ -258,6 +261,13 @@ a {
   gap: 16px;
 }
 
+
+
+
+
+
+
+  
 .footer-phone a,
 .footer-email a {
   font-size: inherit; /* Hérite la taille du parent (<p>) */
