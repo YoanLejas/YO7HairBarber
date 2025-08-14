@@ -202,9 +202,8 @@ a {
 .btn-secondary {
   display: inline-block;
   background-color: #fff; /* Fond blanc */
-  color: #b41220; / Couleur du texte */
+  color: #b41220; /* Couleur du texte */
   padding: 10px 20px; /* Taille du bouton */
-  font-weight: bold; /* Texte en gras */
   border-radius: 5px; /* Coins arrondis */
   border: 2px solid #b41220; /* Couleur de la bordure */
   transition: 0.3s; /* Animation fluide */
