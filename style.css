@@ -232,17 +232,16 @@ a {
   color: #111; /* Couleur du texte */
 }
 
+.footer-grid > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centre verticalement titre + contenu */
+  height: 100%;            /* occupe toute la hauteur de la ligne */
+}
+
 .footer-title {
   margin: 0 0 16px;
   letter-spacing: .5px;
-}
-
-.footer-hours,
-.footer-contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* centre tout dans la hauteur */
-  height: 100%; /* occupe toute la hauteur de la cellule de la grille */
 }
 
 .footer-hours ul {
