@@ -1,58 +1,58 @@
-/* Réinitialisation de base pour tous les éléments */
+/* Réinitialisation des éléments */
 * {
-  margin: 0; /* Supprime les marges par défaut */
-  padding: 0; /* Supprime les espacements internes par défaut */
-  box-sizing: border-box; /* Inclut la bordure et le padding dans la taille totale */
+  margin: 0; /* Suppression des marges par défaut */
+  padding: 0; /* Suppression des espacements internes par défaut */
+  box-sizing: border-box; /* Inclusion de la bordure et du padding dans la taille totale */
 }
 
-/* Style global du document */
+/* Style global */
 body, html {
-  font-family: 'Montserrat', sans-serif; /* Police principale */
-  height: 100%; /* Permet aux sections pleine hauteur de s'afficher correctement */
-  font-size: 22px; /* Base pour tout le site */
+  font-family: 'Montserrat', sans-serif; /* Police du texte */
+  font-size: 22px; /* Taille du texte */
   text-align: justify; /* Alignement du texte */
+  height: 100%; /* Permet aux sections pleine hauteur de s'afficher correctement */
 }
 
 h1, h2, h3 {
-  font-family: 'Bebas Neue', sans-serif; /* Police décorative pour les titres */
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 h1 {
-  font-size: 48px; /* Taille du texte */
-  color: #fff; /* Couleur blanche */
+  font-size: 48px;
+  color: #fff; /* Couleur du texte */
   margin-bottom: 10px; /* Espace dessous */
-  letter-spacing: 2px; /* Espacement entre les lettres */
+  letter-spacing: 2px; /* Espace entre les lettres */
 }
 
 h2 {
-  font-size: 36px; /* Taille du texte */
-  color: #af885f; /* Couleur dorée */
-  margin-bottom: 10px; /* Espace dessous */
-  letter-spacing: 2px; /* Espacement entre les lettres */
+  font-size: 36px;
+  color: #af885f;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 
 h3 {
-  font-size: 28px; /* Taille du texte */
-  color: #af885f; /* Couleur dorée */
-  margin-bottom: 10px; /* Espace dessous */
-  letter-spacing: 2px; /* Espacement entre les lettres */
+  font-size: 28px;
+  color: #af885f;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 
 p {
-  font-size: 22px; /* Taille du texte */
-  color: #111; /* Couleur noire */
-  margin-bottom: 10px; /* Espace dessous */
+  font-size: 22px;
+  color: #111;
+  margin-bottom: 10px;
 }
 
 a {
-  font-size: 18px; /* Taille du texte */
-  color: #af885f; /* Couleur dorée */
-  margin-bottom: 10px; /* Espace dessous */
+  font-size: 18px;
+  color: #af885f;
+  margin-bottom: 10px;
 }
 
-/* BARRE DE NAVIGATION */
+/* Barre de navigation */
 .navbar {
-  background-color: #000; /* Fond noir */
+  background-color: #000; /* Couleur du fond */
   padding: 10px 20px; /* Espacement interne */
   position: sticky; /* Collée en haut lors du scroll */
   top: 0; /* Position haute */
@@ -78,17 +78,17 @@ a {
   color: #b99a5c; /* Doré au survol */
 }
 
-/* BANNIERE */
+/* Bannière */
 .banner {
   background: url('images/salon.png') center center/cover no-repeat; /* Image de fond centrée et couvrant toute la section */
-  height: 66vh; /* Hauteur = moitié de la hauteur de l'écran */
+  height: 66vh; /* Hauteur par rapport à l'écran */
   position: relative; /* Sert de référence pour un positionnement interne */
 }
 
 .banner-black-filter {
-  background-color: rgba(0, 0, 0, 0.6); /* Superposition sombre transparente */
-  height: 100%; /* Prend toute la hauteur du hero */
-  display: flex; /* Active Flexbox */
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%; /* Prend toute la hauteur de la bannière */
+  display: flex; /* L'élément devient un conteneur flex */
   flex-direction: column; /* Empile le contenu verticalement */
   align-items: center; /* Centre horizontalement */
   justify-content: center; /* Centre verticalement */
@@ -98,146 +98,135 @@ a {
 
 .banner-logo {
   width: 250px; /* Largeur */
-  height: auto;     /* Garde les proportions */
+  height: auto; /* Garde les proportions */
   margin-bottom: 25px; /* Espace sous le logo */
 }
 
 .banner-subtitle {
-  font-size: 28px; /* Taille du texte */
-  color: #af885f; /* Couleur dorée */
-  margin-bottom: 25px; /* Espace dessous */
-  font-weight: bold; /* Epaisseur du texte */
+  font-size: 28px;
+  color: #af885f;
+  font-weight: bold;
+  margin-bottom: 25px; 
 }
 
 .banner-btn {
-  background-color: #fff; /* Fond blanc */
-  color: #b41220; /* Couleur du texte */
+  background-color: #fff;
+  font-size: 18px;
+  color: #b41220;
+  font-weight: bold;
   padding: 15px 30px; /* Taille du bouton */
-  font-size: 18px; /* Taille du texte */
-  font-weight: bold; /* Texte en gras */
   border-radius: 5px; /* Arrondissement des coins */
   border: 2px solid #b41220; /* Couleur de la bordure */
   transition: 0.3s; /* Animation fluide */
-  text-decoration: none;
+  text-decoration: none; /* Suppression des liens en surbrillance */
 }
 
 .banner-btn:hover {
-  background-color: #b41220; /* Couleur du fond au survol */
-  color: #fff; /* Couleur du texte au survol */
+  background-color: #b41220;
+  color: #fff;
 }
 
-/* SECTION LOGO/TEXTE */
+/* Section "logo + texte" */
 .split-section {
-  display: flex; /* Mise en ligne */
+  background-color: #fff;
+  display: flex;
   min-height: 400px; /* Hauteur minimale */
-  background-color: #fff; /* Blanc */
 }
 
 .split-logo {
-  width: 40%; /* Largeur bloc gauche */
+  width: 40%; /* Pourcentage de la largeur de l'élément parent */
   display: flex;
-  align-items: center; /* Centre verticalement */
-  justify-content: flex-end; /* Place le logo vers la droite */
-  padding: 40px; /* Espace interne */
+  align-items: center; /* Centre verticalement le contenu (logo) dans la hauteur disponible */
+  justify-content: flex-end; /* Aligne le contenu vers la droite */
+  padding: 40px; /* Ajoute un espace intérieur de 40px sur tous les côtés */
+  max-width: 250px; /* Largeur maximum de l'image */
+  height: auto; /* Adapte automatiquement la hauteur pour garder les proportions de l'image */
 }
 
 .split-text {
-  width: 60%; /* Largeur bloc droit */
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px;
+  flex-direction: column;
+  max-width: 600px; /* Hauteur maximale */
+}
+
+.split-text p {
+  line-height: 1.6; /* Ajoute de l’espace entre les lignes pour rendre le texte plus lisible */
+}
+
+/* Section "services" */
+.services {
+  background-color: #111;
+  display: flex;
+  flex-wrap: wrap; /* Retour à la ligne si besoin */
+  justify-content: center;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+.services-title {
+  width: 100%;
+  text-align: center;
+}
+
+.services-cards {
+  background-color: #111;
+  width: 300px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Texte aligné à gauche */
-  justify-content: center; /* Centre verticalement */
-  max-width: 600px;
-  padding: 40px;
-}
-
-.split-left img {
-  max-width: 250px; /* Taille max du logo */
-  height: auto; /* Garde les proportions */
-}
-
-.split-right p {
-  line-height: 1.6; /* Espacement entre lignes */
-}
-
-/* SECTION SERVICES */
-.services-title {
-  width: 100%;           /* Occupe toute la ligne */
-  text-align: center;    /* Centre le texte */
-}
-
-.services {
-  display: flex; /* Active Flexbox */
-  flex-wrap: wrap; /* Retour à la ligne si besoin */
-  justify-content: center; /* Centre les éléments */
-  background-color: #111; /* Fond noir */
-  padding: 50px 20px; /* Espace interne */
-  gap: 20px; /* Espace entre les cartes */
-}
-
-.services-card {
-  background-color: #111; /* Fond noir */
-  width: 300px; /* Largeur fixe */
-  display: flex;
-  flex-direction: column; /* Contenu empilé verticalement */
   overflow: hidden; /* Cache ce qui dépasse */
   border-radius: 10px; /* Coins arrondis */
   box-shadow: 0 0 10px rgba(0,0,0,0.4); /* Ombre */
 }
 
-.services-card img {
-  width: 100%; /* Largeur totale du bloc */
-  height: 250px; /* Hauteur fixe */
+.services-cards img {
+  width: 100%;
+  height: 250px;
   object-fit: cover; /* Recadre pour remplir sans déformation */
   display: block; /* Supprime l’espace blanc sous l’image */
 }
 
-.services-info {
-  padding: 20px; /* Espace interne */
-  text-align: center; /* Texte centré */
+.services-cards-titles {
+  background-color: #fff;
   background-size: cover;
-  background-color: #fff; /* Fond blanc */
+  padding: 20px;
+  text-align: center;
 }
 
-.btn-secondary {
+.services-cards-buttons {
+  background-color: #fff;
+  color: #b41220;
   display: inline-block;
-  background-color: #fff; /* Fond blanc */
-  color: #b41220; /* Couleur du texte */
   padding: 10px 20px; /* Taille du bouton */
   border-radius: 5px; /* Coins arrondis */
   border: 2px solid #b41220; /* Couleur de la bordure */
-  transition: 0.3s; /* Animation fluide */
-  text-decoration: none; /* Pas de soulignement */
+  transition: 0.3s;
+  text-decoration: none;
 }
 
-.btn-secondary:hover {
-  background-color: #b41220; /* Couleur du fond au survol */
-  color: #fff; /* Couleur du texte au survol */
+.services-cards-buttons:hover {
+  background-color: #b41220;
+  color: #fff;
   border-color: #b41220; /* Couleur de la bordure */
 }
 
-/* FOOTER */
+/* Footer */
 .footer {
+  background-color: #fff;  
   position: relative;
-  background-color: #fff; /* Blanc */
 }
 
 .footer-grid {
-  max-width: 1200px; /* Largeur max */
-  margin: 0 auto; /* Centre */
-  padding: 60px 20px 30px; /* Espacement interne */
+  color: #111;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px 30px;
   display: grid; /* Grille */
-  grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
-  gap: 40px; /* Espace entre colonnes */
-  color: #111; /* Couleur du texte */
-}
-
-.footer-hours,
-.footer-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centre horizontalement */
-  justify-content: flex-start; /* Aligne en haut */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
 }
 
 .footer-title {
@@ -245,6 +234,14 @@ a {
   letter-spacing: .5px;
   width: 100%;
   text-align: center;
+}
+
+.footer-hours,
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Aligne en haut */
 }
 
 .footer-hours ul {
@@ -270,14 +267,15 @@ a {
 
 .footer-phone a:hover,
 .footer-email a:hover {
-  color: #b10f1e; /* Rouge foncé au survol */
+  color: #b10f1e;
 }
 
 .footer-bottom {
-  background-color: #111; /* Couleur du fond */
-  text-align: center; /* Centré */
+  background-color: #111;
+  text-align: center;
   padding: 16px 20px 24px;
 }
 
 .footer-bottom p {
-  color: #af885f; /* Couleur du texte */
+  color: #af885f;
+}
