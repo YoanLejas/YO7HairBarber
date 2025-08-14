@@ -142,9 +142,9 @@ a {
 }
 
 .split-logo img {
-  max-width: 250px;   /* taille max du logo */
-  height: auto;       /* garde les proportions */
-  display: block;     /* évite l’espace sous l’image */
+  max-width: 250px; /* Taille maximale de l'image */
+  height: auto;
+  display: block; /* Suppression de l'espace sous l'image */
 }
 
 .split-text {
