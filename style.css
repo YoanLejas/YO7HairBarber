@@ -133,7 +133,7 @@ a {
   background-color: #fff; /* Blanc */
 }
 
-.split-left {
+.split-logo {
   width: 40%; /* Largeur bloc gauche */
   display: flex;
   align-items: center; /* Centre verticalement */
@@ -141,7 +141,7 @@ a {
   padding: 40px; /* Espace interne */
 }
 
-.split-right {
+.split-text {
   width: 60%; /* Largeur bloc droit */
   display: flex;
   flex-direction: column;
