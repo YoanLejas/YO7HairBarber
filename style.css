@@ -245,6 +245,8 @@ a {
 .footer-title {
   margin: 0 0 16px;
   letter-spacing: .5px;
+  width: 100%;
+  text-align: center;
 }
 
 .footer-hours ul {
