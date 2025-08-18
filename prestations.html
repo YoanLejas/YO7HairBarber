@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YO7'Hair Barber - Prestations</title>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>YO7'Hair Barber - Accueil</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <!-- Google Fonts : BDD de polices de texte -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap">
 
   <!-- Feuille de style externe -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -18,36 +23,78 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-WS585D5S');</script>
 </head>
-
 <body>
   <!-- GTM noscript -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS585D5S"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS585D5S"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-  <!-- Navigation -->
-  <nav>
-    <a href="index.html" class="menu-link">Accueil</a> |
-    <a href="prestations.html" class="menu-link">Prestations</a> |
-    <a href="histoire.html" class="menu-link">Notre histoire</a> |
-    <a href="contact.html" class="menu-link">Contact</a>
-  </nav>
+  <!-- Barre de navigation -->
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="prestations.html">Nos prestations</a>
+      <a href="histoire.html">Notre histoire</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   
-  <!-- Hero -->
-  <header class="hero">
-    <h1>Nos Prestations</h1>
-  </header>
+  <!-- Bannière -->
+    <header class="banner">
+      <div class="banner-black-filter">
+        <img src="images/logo.jpg" class="banner-logo">
+        <p class="banner-subtitle">Le barber préféré de ton barber préféré !</p>
+        <a href="prestations.html" class="banner-btn">Prendre RDV</a>
+      </div>
+    </header>
 
-  <!-- Services -->
-  <section id="services">
-    <ul>
-      <li><button id="prest_degrade" class="btn-primary">Dégradé</button></li>
-      <li><button id="prest_degrade+coupe" class="btn-primary">Dégradé + coupe</button></li>
-    </ul>
-  </section>
+  <!-- Section "prestations" -->
+    <section class="services">
+      <h2 class="services-title">Nos prestations</h2>
 
+        <div class="services-cards">
+          <img src="images/degrade_coupe.jpg">
+          <div class="services-cards-titles">
+            <h3>Dégradé + coupe</h3>
+            <a href="prestations.html" class="services-cards-buttons">Prendre RDV</a>
+          </div>
+        </div>
+          
+        <div class="services-cards">
+          <img src="images/degrade.jpg">
+          <div class="services-cards-titles">
+            <h3>Dégradé</h3>
+            <a href="prestations.html" class="services-cards-buttons">Prendre RDV</a>
+          </div>
+        </div>
+    </section>
+  
   <!-- Footer -->
-  <footer>
-    <p>© 2025 YO7'Hair Barber</p>
-  </footer>
+    <footer class="footer" id="contact">
+        <div class="footer-grid">
+          
+          <div class="footer-hours">
+            <h3 class="footer-title">Nos horaires</h3>
+            <ul>
+              <li><span>Lundi</span><span>18h30–19h30</span></li>
+              <li><span>Mardi</span><span>18h30–19h30</span></li>
+              <li><span>Mercredi</span><span>18h30–19h30</span></li>
+              <li><span>Jeudi</span><span>18h30–19h30</span></li>
+              <li><span>Vendredi</span><span>18h30–19h30</span></li>
+              <li><span>Samedi</span><span>10h–19h</span></li>
+              <li><span>Dimanche</span><span>10h–19h</span></li>
+            </ul>
+          </div>
+    
+          <div class ="footer-contact">
+            <h3 class="footer-title">Contact</h3>
+            <p class="footer-phone">
+              Téléphone : <a href="tel:+33652058904">06 52 05 89 04</a></p>
+            <p class="footer-email">
+              Email : <a href="mailto:ylejas7@gmail.com">ylejas7@gmail.com</a></p>
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <p>© 2025 YO7'Hair Barber — Tous droits réservés</p>
+        </div>
+    </footer>
 </body>
 </html>
