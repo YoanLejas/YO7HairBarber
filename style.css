@@ -54,7 +54,7 @@ a {
 .navbar {
   background-color: #111; /* Couleur du fond */
   height: 60px; /* Hauteur de la barre */
-  position: sticky; /* Collée en haut lors du scroll */
+  position: fixed; /* Collée en haut lors du scroll */
   top: 0; /* Position haute */
   z-index: 1000; /* Toujours au-dessus */
   display: flex;
@@ -67,9 +67,10 @@ a {
   text-decoration: none; /* Pas de soulignement */
   color: #fff;
   font-weight: bold; /* Texte en gras */
-  font-size: 28px;
+  font-size: 22px;
   position: relative;
   transition: color 0.3s; /* Animation */
+  padding: 15px;
 }
 
 .navbar a:hover {
@@ -79,7 +80,7 @@ a {
 .navbar a:not(:last-child)::after {
   content: "|";
   color: #af885f;
-  margin: 0 30px; /* espace à gauche ET à droite */
+  margin: 0 30px;
 }
 
 /* Bannière */
