@@ -85,8 +85,9 @@ a {
 /* Bannière */
 .banner {
   background: url('images/salon.png') center center/cover no-repeat; /* Image de fond centrée et couvrant toute la section */
-  height: 66vh; /* Hauteur par rapport à l'écran */
+  height: 480px; /* Hauteur par rapport à l'écran */
   position: relative; /* Sert de référence pour un positionnement interne */
+  margin-top: 60px; /* Décale la bannière pour ne pas être cachée par la barre de navigation */
 }
 
 .banner-black-filter {
