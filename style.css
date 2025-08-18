@@ -53,10 +53,15 @@ a {
 /* Barre de navigation */
 .navbar {
   background-color: #000; /* Couleur du fond */
-  padding: 10px 20px; /* Espacement interne */
+  height: 80px; /* Hauteur de la barre */
+  padding: 15px; /* Espacement interne */
   position: sticky; /* Collée en haut lors du scroll */
   top: 0; /* Position haute */
   z-index: 1000; /* Toujours au-dessus */
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  gap: 60px; /* Espace entre les liens */
 }
 
 .navbar ul {
@@ -78,6 +83,37 @@ a {
   color: #b99a5c; /* Doré au survol */
 }
 
+
+
+
+.navbar {
+
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #b99a5c;
+}
+
+/* Ajoute le séparateur | automatiquement entre les liens */
+.navbar a:not(:last-child)::after {
+  content: "|";
+  color: #af885f;
+  margin-left: 30px;             /* espace entre le texte et le | */
+}
+
+
+
+
+
 /* Bannière */
 .banner {
   background: url('images/salon.png') center center/cover no-repeat; /* Image de fond centrée et couvrant toute la section */
@@ -93,7 +129,6 @@ a {
   align-items: center; /* Centre horizontalement */
   justify-content: center; /* Centre verticalement */
   text-align: center; /* Centre le texte */
-  padding: 0 20px; /* Ajoute de l'espace sur les côtés */
 }
 
 .banner-logo {
@@ -114,7 +149,7 @@ a {
   font-size: 18px;
   color: #b41220;
   font-weight: bold;
-  padding: 15px 30px; /* Taille du bouton */
+  padding: 15px; /* Taille du bouton */
   border-radius: 5px; /* Arrondissement des coins */
   border: 2px solid #b41220; /* Couleur de la bordure */
   transition: 0.3s; /* Animation fluide */
@@ -138,7 +173,7 @@ a {
   display: flex;
   align-items: center; /* Centre verticalement le contenu (logo) dans la hauteur disponible */
   justify-content: flex-end; /* Aligne le contenu vers la droite */
-  padding: 40px; /* Ajoute un espace intérieur de 40px sur tous les côtés */
+  padding: 30px; /* Ajoute un espace intérieur */
 }
 
 .split-logo img {
@@ -152,7 +187,7 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 40px;
+  padding: 30px;
   flex-direction: column;
   max-width: 600px; /* Hauteur maximale */
 }
@@ -167,7 +202,7 @@ a {
   display: flex;
   flex-wrap: wrap; /* Retour à la ligne si besoin */
   justify-content: center;
-  padding: 50px 20px;
+  padding: 30px;
   gap: 20px;
 }
 
@@ -196,7 +231,7 @@ a {
 .services-cards-titles {
   background-color: #fff;
   background-size: cover;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -204,7 +239,7 @@ a {
   background-color: #fff;
   color: #b41220;
   display: inline-block;
-  padding: 10px 20px; /* Taille du bouton */
+  padding: 15px; /* Taille du bouton */
   border-radius: 5px; /* Coins arrondis */
   border: 2px solid #b41220; /* Couleur de la bordure */
   transition: 0.3s;
@@ -227,7 +262,7 @@ a {
   color: #111;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 20px 30px;
+  padding: 30px;
   display: grid; /* Grille */
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
@@ -258,7 +293,7 @@ a {
   display: grid; /* Grille interne */
   grid-template-columns: 1fr auto; /* Jour à gauche, heure à droite */
   border-bottom: 1px solid rgba(230,211,160,.2); /* Ligne de séparation */
-  padding: 8px 0;
+  padding: 5px 0;
   gap: 60px;
 }
 
@@ -277,7 +312,7 @@ a {
 .footer-bottom {
   background-color: #111;
   text-align: center;
-  padding: 16px 20px 24px;
+  padding: 15px;
 }
 
 .footer-bottom p {
