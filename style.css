@@ -113,7 +113,7 @@ a {
   margin-bottom: 25px; 
 }
 
-.banner-btn {
+.banner-button {
   background-color: #fff;
   font-size: 18px;
   color: #b41220;
@@ -125,7 +125,7 @@ a {
   text-decoration: none; /* Suppression des liens en surbrillance */
 }
 
-.banner-btn:hover {
+.banner-button:hover {
   background-color: #b41220;
   color: #fff;
 }
@@ -328,18 +328,18 @@ a {
   margin: 8px 0 24px;
 }
 
-.contact-form-btn {
-  background: #111;
-  color: #fff;
-  border: 2px solid #111;
-  padding: 12px 24px;
-  border-radius: 6px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: .2s;
+.contact-form-button {
+  background-color: #fff;
+  color: #b41220;
+  display: inline-block;
+  padding: 10px; /* Taille du bouton */
+  border-radius: 5px; /* Coins arrondis */
+  border: 2px solid #b41220; /* Couleur de la bordure */
+  transition: 0.3s;
+  text-decoration: none;
 }
 
-.contact-form-btn:hover {
+.contact-form-button:hover {
   background: transparent;
   color: #111;
 }
