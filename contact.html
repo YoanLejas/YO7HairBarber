@@ -44,6 +44,38 @@
         <a href="prestations.html" class="banner-btn">Prendre RDV</a>
       </div>
     </header>
+
+  <!-- Formulaire de contact -->
+    <section class="contact">
+      <h1 class="contact-title">Formulaire de contact</h1>
+    
+      <form class="contact-form" action="https://formspree.io/f/mdkdvbrl" method="POST">
+        <div class="contact-form-row">
+          <input name="name" type="text" placeholder="Nom*" required autocomplete="name">
+        </div>
+    
+        <div class="contact-form-row">
+          <input name="email" type="email" placeholder="Email*" required autocomplete="email">
+        </div>
+    
+        <div class="contact-form-row">
+          <input name="phone" type="tel" placeholder="Téléphone*" required autocomplete="tel">
+        </div>
+    
+        <div class="contact-form-row">
+          <textarea name="message" rows="6" placeholder="Message*" required></textarea>
+        </div>
+    
+        <p class="contact-form-legal">
+          Les informations envoyées servent uniquement à vous recontacter. Conformément au RGPD,
+          vous disposez d’un droit d’accès, de rectification et de suppression de vos données.
+        </p>
+    
+        <div class="contact-form-btn">
+          <button type="submit">Envoyer</button>
+        </div>
+      </form>
+    </section>
   
   <!-- Footer -->
     <footer class="footer" id="contact">
