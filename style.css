@@ -54,8 +54,10 @@ a {
 .navbar {
   background-color: #111; /* Couleur du fond */
   height: 60px; /* Hauteur de la barre */
+  width: 100%;
   position: fixed; /* Collée en haut lors du scroll */
   top: 0; /* Position haute */
+  left: 0;
   z-index: 1000; /* Toujours au-dessus */
   display: flex;
   align-items: center; /* Centre verticalement */
@@ -70,7 +72,7 @@ a {
   font-size: 22px;
   position: relative;
   transition: color 0.3s; /* Animation */
-  padding: 15px;
+  padding: 0 20px;
 }
 
 .navbar a:hover {
@@ -80,7 +82,8 @@ a {
 .navbar a:not(:last-child)::after {
   content: "|";
   color: #af885f;
-  margin: 0 30px;
+  margin-left: 20px;          /* espace avant le | */
+  margin-right: 20px;
 }
 
 /* Bannière */
