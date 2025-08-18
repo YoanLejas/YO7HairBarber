@@ -287,3 +287,59 @@ a {
 .footer-bottom p {
   color: #af885f;
 }
+
+/* Formulaire de contact */
+.contact {
+  background: #111;
+  padding: 30px;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-form-row {
+  margin-bottom: 16px;
+}
+
+.contact-form-row input,
+.contact-form-row textarea {
+  width: 100%;
+  font-size: 20px;
+  padding: 18px 20px;
+  border: 1px solid #111;
+  border-radius: 2px;
+  background: #fff;
+  color: #111;
+  outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+.contact-form-row input:focus,
+.contact-form-row textarea:focus {
+  border-color: #111;
+  box-shadow: 0 0 0 3px rgba(175,136,95,.15);
+}
+
+.contact-form-legal {
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.5;
+  margin: 8px 0 24px;
+}
+
+.contact-form-btn {
+  background: #111;
+  color: #fff;
+  border: 2px solid #111;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.contact-form-btn:hover {
+  background: transparent;
+  color: #111;
+}
