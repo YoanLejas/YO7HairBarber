@@ -52,9 +52,8 @@ a {
 
 /* Barre de navigation */
 .navbar {
-  background-color: #000; /* Couleur du fond */
-  height: 80px; /* Hauteur de la barre */
-  padding: 15px; /* Espacement interne */
+  background-color: #111; /* Couleur du fond */
+  height: 60px; /* Hauteur de la barre */
   position: sticky; /* Collée en haut lors du scroll */
   top: 0; /* Position haute */
   z-index: 1000; /* Toujours au-dessus */
@@ -64,55 +63,24 @@ a {
   gap: 60px; /* Espace entre les liens */
 }
 
-.navbar ul {
-  list-style: none; /* Supprime les puces */
-  display: flex; /* Affiche en ligne */
-  justify-content: center; /* Centre horizontalement */
-  gap: 40px; /* Espace entre les liens */
-  margin: 0;
-  padding: 0;
-}
-
 .navbar a {
   text-decoration: none; /* Pas de soulignement */
+  color: #fff;
   font-weight: bold; /* Texte en gras */
+  font-size: 28px;
+  position: relative;
   transition: color 0.3s; /* Animation */
 }
 
 .navbar a:hover {
-  color: #b99a5c; /* Doré au survol */
+  color: #af885f; /* Couleur au survol */
 }
 
-
-
-
-.navbar {
-
-}
-
-.navbar a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  font-size: 22px;
-  position: relative;
-  transition: color 0.3s;
-}
-
-.navbar a:hover {
-  color: #b99a5c;
-}
-
-/* Ajoute le séparateur | automatiquement entre les liens */
 .navbar a:not(:last-child)::after {
   content: "|";
   color: #af885f;
-  margin-left: 30px;             /* espace entre le texte et le | */
+  margin: 0 30px; /* espace à gauche ET à droite */
 }
-
-
-
-
 
 /* Bannière */
 .banner {
@@ -239,7 +207,7 @@ a {
   background-color: #fff;
   color: #b41220;
   display: inline-block;
-  padding: 15px; /* Taille du bouton */
+  padding: 10px; /* Taille du bouton */
   border-radius: 5px; /* Coins arrondis */
   border: 2px solid #b41220; /* Couleur de la bordure */
   transition: 0.3s;
