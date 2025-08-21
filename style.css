@@ -300,46 +300,41 @@ a {
 
 .contact-form-row {
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-form-row input,
 .contact-form-row textarea {
-  width: 100%;
+  width: 50%;
   font-size: 20px;
   padding: 18px 20px;
-  border: 1px solid #111;
-  border-radius: 2px;
+  border-radius: 5px;
   background: #fff;
   color: #111;
   outline: none;
-  transition: border-color .2s, box-shadow .2s;
-}
-
-.contact-form-row input:focus,
-.contact-form-row textarea:focus {
-  border-color: #111;
-  box-shadow: 0 0 0 3px rgba(175,136,95,.15);
 }
 
 .contact-form-legal {
   font-size: 14px;
   color: #fff;
   line-height: 1.5;
-  margin: 8px 0 24px;
+  margin: 10px;
 }
 
 .contact-form-button {
   background-color: #fff;
+  font-size: 18px;
   color: #b41220;
-  display: inline-block;
-  padding: 10px; /* Taille du bouton */
-  border-radius: 5px; /* Coins arrondis */
-  border: 2px solid #b41220; /* Couleur de la bordure */
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #b41220;
   transition: 0.3s;
   text-decoration: none;
 }
 
 .contact-form-button:hover {
-  background: transparent;
-  color: #111;
+  background-color: #b41220;
+  color: #fff;
 }
