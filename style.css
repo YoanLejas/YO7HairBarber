@@ -305,11 +305,10 @@ a {
 }
 
 .contact-form-row {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 .contact-form-row input,
@@ -329,9 +328,8 @@ a {
   font-size: 14px;
   color: #fff;
   line-height: 1.5;
-  text-align: center;
   max-width: 50%;
-  margin: 10px;
+  margin-bottom: 10px;
   text-align: justify;
 }
 
