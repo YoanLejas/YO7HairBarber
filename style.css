@@ -314,12 +314,15 @@ a {
   background: #fff;
   color: #111;
   outline: none;
+  margin-bottom: 10px;
 }
 
 .contact-form-legal {
   font-size: 14px;
   color: #fff;
   line-height: 1.5;
+  text-align: center;
+  max-width: 50%;
   margin: 10px;
 }
 
@@ -333,7 +336,9 @@ a {
   border: 2px solid #b41220;
   transition: 0.3s;
   text-decoration: none;
+  cursor: pointer;
 }
+
 .contact-form-button:hover {
   background-color: #b41220;
   color: #fff;
