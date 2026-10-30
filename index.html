@@ -37,6 +37,29 @@
   </script>
 </head>
 
+<script>
+// Ecoute des clics sur la page,
+// Et création d'une variable JS "bouton" qui récupère l'élément HTML ayant la classe "services-cards-buttons" suite à un clic sur un élément avec cette classe
+document.addEventListener("click", function(e) {
+  const bouton = e.target.closest(".services-cards-buttons");
+  // Si la variable "bouton" contient un élément HTML (donc s'il y a un clic),
+  // on crée une variable "prestation" qui collecte le bloc HTML de la prestation qui a une classe "services-cards",
+  // puis on crée une variable "serviceName" qui collecte la valeur du titre "h3" de cette prestation
+  if (bouton) {
+    const prestation = bouton.closest(".services-cards");
+    const serviceName = prestation.querySelector("h3").innerText.trim();
+    
+    window.dataLayer = window.dataLayer || [];
+    // Voici les données qui sont poussées dans le dataLayer (l'événement et ses données associées)
+    window.dataLayer.push({
+      event: "select_service",
+      service_name: serviceName,
+      currency: "EUR"
+    });
+  }
+});
+</script>
+
 <body>
   <!-- GTM noscript -->
     <noscript>
